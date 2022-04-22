@@ -123,48 +123,6 @@
         ],
     ];
 
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trombinoscope</title>
-
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-    <h1>Trombinoscope</h1>
-
-    <form>
-        <h2>Filtres</h2>
-        <input type="radio" name="filter" id="all_filter" value="all"><label for="all_filter">Tous</label>
-        <input type="radio" name="filter" id="women_filter" value="women"><label for="women_filter">Femmes</label>
-        <input type="radio" name="filter" id="men_filter" value="men"><label for="men_filter">Hommes</label>
-        <input type="submit" value="Filter">
-    </form>
-
-    <main class="container">
-        <div class="card">
-            <h3>Prénom Nom</h3>
-            <p>
-                <img src="https://i.pravatar.cc/150?img=4">
-            </p>
-            <ul>
-                <li>Age : 16</li>
-                <li>Email :  prenom.nom@wild.com</li>
-            </ul>
-        </div>
-    </main>
-    
-</body>
-</html>
-
-
-
-//CORRECTION
 
     $filter = 'all';
     if(isset($_GET['filter'])) {
