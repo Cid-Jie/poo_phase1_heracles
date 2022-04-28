@@ -2,9 +2,6 @@
 
 require_once('src/Fighter.php');
 
-// First Labour : Heracles vs Nemean Lion
-// use your Figher class here
-
 $heracles = new Fighter('😀Héraclès', 20, 13);
 $lion = new Fighter('🦁Lion de Néméé', 20, 13);
 
